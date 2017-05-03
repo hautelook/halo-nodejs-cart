@@ -1,0 +1,22 @@
+{
+  "name": "halo-nodejs-cart",
+  "version": "1.0.0",
+  "description": "Halo NodeJS Cart Exercise",
+  "scripts": {
+    "test": "cucumber.js"
+  },
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/hautelook/halo-nodejs-cart.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "cucumber": "^1.3.3"
+  }
+}
