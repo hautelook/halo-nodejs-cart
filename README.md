@@ -16,7 +16,7 @@ Note: We expect installation to take less than 5 Minutes to setup. If for any re
 
 ## Running Tests
 
-After installation, go to the halo-nodjs-cart directory and make sure the tests are working:
+After installation, go to the halo-nodejs-cart directory and make sure the tests are working:
 
 ```bash
 $ ./node_modules/.bin/cucumber-js
