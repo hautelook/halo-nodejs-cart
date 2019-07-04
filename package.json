@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Halo NodeJS Cart Exercise",
   "scripts": {
-    "test": "cucumber.js"
+    "test": "cucumber.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
-        "type": "git",
-        "url": "https://github.com/hautelook/halo-nodejs-cart.git"
+    "type": "git",
+    "url": "https://github.com/hautelook/halo-nodejs-cart.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -17,6 +19,8 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "cucumber": "^1.3.3"
-  }
+    "cucumber": "^1.3.3",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
